@@ -3,7 +3,6 @@ import "./App.css";
 import {
 	DepositPanel,
 	SwapPanel,
-	TransactionModal,
 	WithdrawPanel,
 	// useTransactionModal,
 } from "@qubitronlabs/crypto-wallet";
@@ -17,7 +16,6 @@ function App() {
 			   <DynamicWidget />
 			   {primaryWallet && (
 				   <>
-					   <TransactionModal />
 					   <div className="flex flex-row gap-8 mt-8">
 						   <DepositPanel />
 						   <WithdrawPanel />
